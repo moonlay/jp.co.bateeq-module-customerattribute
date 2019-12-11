@@ -1,9 +1,8 @@
 <?php
-/**
- * Module configuration
- */
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Clarion_CustomerAttribute',
-    __DIR__
-);
+use Magento\Framework\Component\ComponentRegistrar;
+
+$registrar = new ComponentRegistrar();
+
+if ($registrar->getPath(ComponentRegistrar::MODULE, 'Moonlay_CustomerAttribute') === null) {
+    ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Moonlay_CustomerAttribute', __DIR__);
+}
