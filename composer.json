@@ -1,5 +1,5 @@
 {
-    "name": "Moonlay/CustomerAttribute",
+    "name": "moonlay/customer-attribute",
     "description": "Manage Customer Attributes",
     "type": "magento2-module",
     "version": "1.2.0",
