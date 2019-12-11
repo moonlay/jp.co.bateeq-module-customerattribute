@@ -93,7 +93,7 @@ $stores = $block->getStoresSortedBySortOrder();
     <script type="text/x-magento-init">
         {
             "*": {
-                "Moonlay_CustomerAttribute/js/options": {
+                "Clarion_CustomerAttribute/js/options": {
                     "attributesData": <?php /* @noEscape */ echo json_encode($values, JSON_HEX_QUOT); ?>,
                     "isSortable":  <?php echo (int)(!$block->getReadOnly() && !$block->canManageOptionDefaultOnly()) ?>,
                     "isReadOnly": <?php echo (int)$block->getReadOnly(); ?>

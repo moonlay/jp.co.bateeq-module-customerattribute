@@ -1,4 +1,8 @@
 <?php
+/**
+ * Used in creating options for Yes|No config value selection
+ *
+ */
 
 namespace Moonlay\CustomerAttribute\Model\Source;
 

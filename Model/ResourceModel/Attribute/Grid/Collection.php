@@ -1,4 +1,8 @@
 <?php
+/**
+ * Customer attribute collection
+ *
+ */
 
 namespace Moonlay\CustomerAttribute\Model\ResourceModel\Attribute\Grid;
 
