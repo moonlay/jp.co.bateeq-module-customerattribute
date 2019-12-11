@@ -4,7 +4,7 @@
  *
  */
 
-namespace Moonlay\CustomerAttribute\Block\Adminhtml\Attribute\Edit\Tab;
+namespace Clarion\CustomerAttribute\Block\Adminhtml\Attribute\Edit\Tab;
 
 use Magento\Eav\Block\Adminhtml\Attribute\Edit\Main\AbstractMain;
 
